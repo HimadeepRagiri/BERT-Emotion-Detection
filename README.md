@@ -14,6 +14,7 @@ A deep learning model for text emotion classification using BERT transformer arc
 - [Training](#training)
 - [Results](#results)
 - [Deployment](#deployment)
+- [License](#license)
 
 ## Project Overview
 This project implements a BERT-based sequence classification model for emotion detection. The system:
@@ -57,6 +58,7 @@ BERT-Emotion-Detection/
 ├── BERT_Emotion_Detection.ipynb  # Complete Colab notebook
 ├── main.py                   # Main execution script
 ├── requirements.txt          # Python dependencies
+├── LICENSE                   # MIT License
 └── README.md                # This documentation
 ```
 
@@ -69,11 +71,8 @@ BERT-Emotion-Detection/
 ## Installation
 1. Clone the repository:
 ```bash
-git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-cd ML-and-DL-Projects
-git sparse-checkout init --cone
-git sparse-checkout set NLP_Projects/BERT-Emotion-Detection
-cd NLP_Projects/BERT-Emotion-Detection
+git clone https://github.com/HimadeepRagiri/BERT-Emotion-Detection.git
+cd BERT-Emotion-Detection
 ```
 
 2. Create virtual environment (recommended):
@@ -168,6 +167,10 @@ Key Features:
 - Real-time text input
 - Probability distribution display
 - Example buttons for quick testing
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 For questions or issues, please open an issue in the GitHub repository.
